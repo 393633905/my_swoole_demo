@@ -10,7 +10,7 @@ go(function(){
         'timeout'=>5,
     ]);
     $redis->connect('127.0.0.1', 6380);
-    $redis->auth('393633905');
+
 
     $log=$redis->get('chat_log_2020-08-15');
     var_dump($log);
