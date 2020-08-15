@@ -1,0 +1,39 @@
+{
+  "status": 1,
+  "msg": "success",
+  "data": {
+    "hasMore": true,
+    "datas": [
+      {
+        "id": 1,
+        "title": "西藏旅游当地风俗与禁忌",
+        "intro": "西藏旅游必备",
+        "icon": "http://www.393633905.xyz/family/app/culture/human_culture/image/jinji.jpg",
+        "info": {
+          "banner": "http://www.393633905.xyz/family/app/culture/human_culture/image/jinji.jpg",
+          "content": "1.藏族人绝对禁吃驴、马和狗肉，有些地区也不吃鱼肉；\r\n2.到藏民帐篷和居室时切记不可用脚踩门槛；\r\n3.主人如请就座， 可盘腿而座， 切勿伸直双腿、 脚底向人；\r\n4.正式的敬酒场合， 客人须先用无名指蘸一点酒弹向空中， 连续三次， 以示祭天、 地和祖先， 接着轻轻呷一口， 主人会及时添满， 再喝一口再添满， 连喝三口， 至第四次添满时， 必须一饮而尽；\r\n5.喝酥油茶时， 客人要待主人双手捧到面前时， 才能接过来喝；\r\n6.接受礼品用双手接， 送赠礼品时要躬身举过头；\r\n7.藏民忌讳别人用手触摸头顶；\r\n8.藏族家里病人或妇女生育时， 门前都做了标记， 有的在门外生一堆火， 有的在门口插上树枝或贴一红布条， 外人见到此标记， 切勿进入；\r\n9.天葬在西藏是较为常见， 民间有许多禁忌， 包括禁忌生人观看。",
+          "img1": "http://www.393633905.xyz/family/app/culture/human_culture/image/jinji2.jpg",
+          "img2": "http://www.393633905.xyz/family/app/culture/human_culture/image/jinji3.jpg",
+          "title": "西藏旅游当地风俗与禁忌",
+          "intro": "西藏旅游必备"
+        }
+      },
+      {
+        "id": 2,
+        "title": "雪顿节",
+        "intro": "雪顿节即是晒佛的日子，也是吃酸奶日子",
+        "icon": "http://www.393633905.xyz/family/app/culture/human_culture/image/xuedunjie.jpg",
+        "info": {
+          "banner": "http://www.393633905.xyz/family/app/culture/human_culture/image/xuedunjie.jpg",
+          "content": "雪顿节在每年藏历六月底七月初举办，是西藏传统的节日。在藏语中，“雪”是酸奶子的意思，“顿”是“吃”、“宴”的意思，雪顿节按藏语解释就是吃酸奶子的节日，因此又叫“酸奶节”。因为雪顿节期间有隆重热烈的藏戏演出和规模盛大的晒佛仪式，所以有人也称之为“藏戏节”、“晒佛节”。",
+          "img1": "http://www.393633905.xyz/family/app/culture/human_culture/image/xuedunjie1.jpg",
+          "img2": "http://www.393633905.xyz/family/app/culture/human_culture/image/xuedunjie2.jpg",
+          "title": "雪顿节",
+          "intro": "雪顿节即是晒佛的日子，也是吃酸奶日子"
+        }
+      }
+    ],
+    "status ": 1,
+    "msg": "success"
+  }
+}

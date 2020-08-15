@@ -1,0 +1,8 @@
+{
+    "require-dev": {
+        "eaglewu/swoole-ide-helper": "dev-master"
+    },
+    "require": {
+        "predis/predis": "^1.1"
+    }
+}

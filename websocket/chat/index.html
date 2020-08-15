@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+	<meta charset="UTF-8">
+	<title>在线聊天室</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/reset.min.css">
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+	<div class="wrapper" id="app">
+		<div class="container">
+			<div class="left">
+				<div class="top"> 在线人员 </div>
+				<ul class="people">
+
+					<li class="person"  data-chat="person2">
+						<img src="img/dog.png" alt="" />
+						<span class="name">1</span>
+						<span class="time">2</span>
+					</li>
+
+				</ul>
+			</div>
+			<div class="right">
+				<div class="top"><span><span class="name">聊天室</span></span></div>
+				<div class="chat" data-chat="person2"  >
+					<div v-for="(item,key) in msg_list" :class="item.style" >
+						{{item.content}}
+					</div>
+				</div>
+				
+				<div class="write">
+					<input type="text" v-model="input_msg" @keyup.enter="sendMsg"/>
+					<a href="javascript:;" class="write-link send" @click.prevent="sendMsg"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/index.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+	<script>
+		const app=new Vue({
+			el:"#app",
+
+			data:{
+				input_msg:'',
+				person_list:[],
+				msg_list:[],//消息列表
+			},
+			methods:{
+				//发送消息
+				sendMsg(){
+					ws.send(this.input_msg);
+					this.input_msg='';
+				}
+			}
+		});
+	</script>
+
+	<script>
+		let ws=new WebSocket('ws://111.231.209.227:6077');
+		ws.onopen=()=>{
+			alert('欢迎来到聊天室');
+		}
+
+		ws.onmessage=({data})=>{
+			console.log(data);
+			app.msg_list.push(JSON.parse(data));
+		}
+
+		ws.onclose=()=>{
+			alert('您已与服务器断开连接');
+		}
+	</script>
+</body>
+
+</html>

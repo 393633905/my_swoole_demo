@@ -1,0 +1,31 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+
+    let ws=new WebSocket('ws://111.231.209.227:6077');
+
+    ws.onopen=()=>{
+        console.log('建立连接');
+        ws.send('connect');
+    }
+    ws.onmessage=({data})=>{
+
+        console.log('接收到消息：'+data);
+    };
+
+    ws.onclose=()=>{
+        console.log('与服务器断开连接');
+    };
+
+
+</script>
+</body>
+</html>
