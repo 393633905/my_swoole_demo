@@ -3,14 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="43ed60c6-07d9-4c0b-ac81-5366f83ad23e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/coroutine/one_coroutine.php" beforeDir="false" afterPath="$PROJECT_DIR$/coroutine/one_coroutine.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coroutine/redis_client.php" beforeDir="false" afterPath="$PROJECT_DIR$/coroutine/redis_client.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/tp5" beforeDir="false" afterPath="$PROJECT_DIR$/web/tp5" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/tp5/application/index/controller/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/tp5/application/index/controller/Index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/tp5/application/index/controller/Test.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/web/tp5/nbproject/project.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/web/tp5/nbproject/project.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/web/tp5/使用方式.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/tp5/使用方式.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/websocket/publisher.php" beforeDir="false" afterPath="$PROJECT_DIR$/websocket/publisher.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,8 +63,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/coroutine/one_coroutine.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+            <state relative-caret-position="140">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -171,7 +169,7 @@
       <path value="$PROJECT_DIR$/vendor/predis/predis" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-5" />
     <option name="y" value="637" />
     <option name="width" value="1110" />
@@ -288,12 +286,12 @@
       <workItem from="1589079231478" duration="948000" />
       <workItem from="1590283121621" duration="20546000" />
       <workItem from="1597390192908" duration="7976000" />
-      <workItem from="1597466125561" duration="13762000" />
+      <workItem from="1597466125561" duration="13906000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60261000" />
+    <option name="totallyTimeSpent" value="60405000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -302,7 +300,7 @@
       <window_info id="Favorites" order="0" side_tool="true" weight="0.26758286" />
       <window_info auto_hide="true" content_ui="combo" id="Project" order="1" weight="0.20937753" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.4987874" weight="0.41740674" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" sideWeight="0.4987874" visible="true" weight="0.41740674" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5004042" side_tool="true" weight="0.22912966" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.3285968" />
@@ -625,8 +623,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/coroutine/one_coroutine.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        <state relative-caret-position="140">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
         </state>
       </provider>
     </entry>
